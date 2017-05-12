@@ -3,7 +3,7 @@ var path = require('path');
 
 module.exports = {
   debug: true,
-  devtool: 'cheap-map-eval-source-map',
+  devtool: 'source-map',
   noInfo: false,
   entry: [
     './src/App.jsx'

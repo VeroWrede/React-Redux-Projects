@@ -1,0 +1,50 @@
+html {
+  height: 100%
+}
+
+body {
+  min-height: 100%;
+  text-align: center;
+  background-color: #b30000;
+  margin: 10%;
+}
+
+#appContainer {
+  background-image: linear-gradient(
+    to top right,
+    #bfff00, #ffff00
+    );
+}
+
+h1 {
+  padding-top: 0.5em;
+}
+
+hr {
+  background-color: #b30000;
+  height: 0.5em;
+  border: none;
+}
+
+p {
+  text-align: left;
+  display: block;
+  font-size: 1.5em;
+  padding: 1.5em;
+}
+
+button {
+  margin: 0.75em 0.75em 0 0;
+  padding: 0.25em;
+  border-radius: 12px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+}
