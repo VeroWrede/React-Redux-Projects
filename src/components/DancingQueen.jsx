@@ -14,18 +14,6 @@ class DancingQueen extends React.Component {
             onClick={this.props.onBackClick}>
             Back
           </button>
-          <button
-            onClick={this.props.onCheatClick}>
-            You cheat ...
-          </button>
-          <button
-            onClick={this.props.onMarryQuentinClick}>
-            You get married
-          </button>
-          <button
-            onClick={this.props.onTeacherClick}>
-            Become a Teacher
-          </button>
         </p>
       </div>
     );

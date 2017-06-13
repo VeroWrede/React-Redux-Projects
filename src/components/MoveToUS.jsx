@@ -16,11 +16,11 @@ class USA extends React.Component {
           </button>
           <button
             onClick={this.props.onBenClick}>
-            You hang out more with Ben
+            You hang out with Ben
           </button>
           <button
             onClick={this.props.onAlexClick}>
-            You spend more time with Alex
+            You hang out with Alex
           </button>
         </p>
       </div>
